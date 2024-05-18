@@ -43,7 +43,7 @@ public class SolutionClass {
 
         }
 
-        return (stack.isEmpty()) ? true : false;
+        return stack.isEmpty();
     }
 
     private static boolean isOpeningBracket(char c) {
